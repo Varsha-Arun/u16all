@@ -1,4 +1,4 @@
-language: python
+language: php
 
 services:
   - cassandra 
@@ -18,8 +18,8 @@ services:
   
 build:
   pre_ci_boot:
-    image_name: drydock/u16all
-    image_tag: v6.3.4
+    image_name: drydock/u16phpall
+    image_tag: v5.5.1
     pull: true
     
   ci:
