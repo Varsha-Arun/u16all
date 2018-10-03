@@ -1,13 +1,11 @@
 language: php
 
 services:
- 
   - couchdb 
   - elasticsearch 
   - memcached 
   - mongodb 
   - mysql 
-  - neo4j 
   - postgres 
   - rabbitmq 
   - redis 
