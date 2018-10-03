@@ -17,10 +17,10 @@ services:
   - sqlite 
   
 build:
-  pre_ci_boot:
-    image_name: drydock/u16phpall
-    image_tag: v5.5.1
-    pull: true
+ # pre_ci_boot:
+  #  image_name: drydock/u16phpall
+   # image_tag: v5.5.1
+   # pull: true
     
   ci:
     - python --version    
