@@ -9,7 +9,6 @@ services:
   - postgres 
   - rabbitmq 
   - redis 
-  - rethinkdb 
   - riak 
   - selenium 
   - sqlite 
