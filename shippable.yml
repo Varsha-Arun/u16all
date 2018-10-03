@@ -14,10 +14,10 @@ services:
   - sqlite 
   
 build:
- # pre_ci_boot:
-  #  image_name: drydock/u16all
-  #  image_tag: master
-  #  pull: true
+  pre_ci_boot:
+    image_name: drydock/u16all
+    image_tag: v6.9.4
+    pull: true
     
   ci:
     - echo SHIPPABLE_COUCHDB_BINARY=$SHIPPABLE_COUCHDB_BINARY
